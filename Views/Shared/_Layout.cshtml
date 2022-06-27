@@ -1,0 +1,133 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"
+    />
+    <title>@ViewData["Title"] - Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Portfolio.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+    @*<link rel="stylesheet" href="~/css/swiper-bundle.min.css">*@
+    
+</head>
+<body>
+    <header>
+        @*<nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3 fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Portfolio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>*@
+        <nav class="navbar fixed-top" stype="text-align: center;">
+            <div class="container-fluid navigation mt-5 shadow">
+                <ul>
+                    <li class="my active">
+                        <a href="#my">
+                            <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                            <span class="text">MY</span>
+                        </a>
+                    </li>
+                    <li class="aboutme">
+                        <a href="#aboutme">
+                            <span class="icon"><ion-icon name="id-card-outline"></ion-icon></span>
+                            <span class="text">ABOUT</span>
+                        </a>
+                    </li>
+                    <li class="project">
+                        <a href="#project">
+                            <span class="icon"><ion-icon name="folder-open-outline"></ion-icon></span>
+                            <span class="text">PROJECT</span>
+                        </a>
+                    </li>
+                    <li class="contact">
+                        <a href="#contact">
+                            <span class="icon"><ion-icon name="call-outline"></ion-icon></span>
+                            <span class="text">CONTACT</span>
+                        </a>
+                    </li>
+                    <div class="indicator"></div>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main role="main">
+            @RenderBody()
+        </main>
+    </div>
+    
+    @*<footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - Portfolio - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>*@
+    <div class="space-content2"></div>
+    <section id="contact">
+        <div class="mt-5 pt-5"><div class="mt-5 pt-5"><div class="mt-5 pt-5"></div></div></div>
+        <div class="space-content"></div>
+        <footer>
+            <div class="waves">
+                <div class="wave" id="wave1"></div>
+                <div class="wave" id="wave2"></div>
+                <div class="wave" id="wave3"></div>
+                <div class="wave" id="wave4"></div>
+            </div>
+            <div class="social_icon">
+                @*<li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>*@
+                <a href="https://github.com/jaturon-dev"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/jaturon-wongsettee"><ion-icon name="logo-linkedin"></ion-icon></a>
+            </div>
+            <div class="social_icon">
+                <div class="inline">
+                    <a href="mailto:kiter-2899@hotmail.com">
+                        <ion-icon name="mail-outline"></ion-icon>
+                        <p>pong-2899@hotmail.com</p>
+                    </a>
+                </div>
+                <div class="inline">
+                    <a href="tel:0622572520">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <p>062-2572520</p>
+                    </a>
+                </div>
+            </div>
+            <p>&copy; 2022 - Portfolio is used to apply for a job.</p>
+        </footer>
+    </section>
+
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    @*<script src="~/js/swiper-bundle.min.js"></script>*@
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+   
+    <script src="~/js/jquery.ripples.js"></script>
+    
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

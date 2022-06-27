@@ -1,0 +1,365 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<section id="my">
+    <div class="pt-5"></div>
+    <div class="mt-5 pt-5"></div>
+    <div class="mt-5 pt-5"></div>
+    <div class="my-title row" style="justify-content: center; align-items: center;">
+        <div class="col">
+            <div class="text-center">
+                <h1 class="display-4">Hi,I am <span style="color: #3586ff;">Jaturon</span></h1>
+                <h1 class="display-4">Web Developer</h1>
+            </div>
+        </div>
+        <div class="col">
+            <div class="drop" id="dropid" value="click">
+                @*<img src="~/fish.png" alt="" />*@
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="aboutme">
+    <div class="space-content"></div>
+    <div class="about-me blog-post shadow">
+        <div class="blog-post__img">
+            @*<img src="~/my.jpg" alt="" />*@
+        </div>
+        <div class="blog-post__info">
+            <div class="title">
+                <span><strong>About Me</strong></span>
+                <span><strong>About Me</strong></span>
+            </div>
+            <h1 class="blog-post__title">Jaturon Wongsettee (Pong)</h1>
+            <section class="skills section" id="aboutme">
+                <h2 class="section__title">Skill</h2>
+                <span class="section__subtitle">My technical level</span>
+                <div class="skills__container container grid">
+                    <div>
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <div>
+                                    <h3 class="skill__title">Languages</h3>
+                                    <span class="skills__subtitle">beginner to Expert</span>
+                                </div>
+                                <ion-icon name="chevron-down-circle-outline" class="skills__arrow"></ion-icon>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">HTML</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__html"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">JavaScript</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__javascript"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">CSS</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__css"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">C#</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__c"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">PHP</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__php"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Python (Machien Learning)</h3>
+                                        <span class="skills__number">50%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__python"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <div>
+                                    <h3 class="skill__title">Frameworks</h3>
+                                    <span class="skills__subtitle">beginner to Expert</span>
+                                </div>
+                                <ion-icon name="chevron-down-circle-outline" class="skills__arrow"></ion-icon>
+                            </div>
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">.Net</h3>
+                                        <span class="skills__number">70%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__net"></span>
+                                    </div>
+                                </div>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Laravel</h3>
+                                        <span class="skills__number">80%</span>
+                                    </div>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__laravel"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="qualification section" id="aboutme">
+                <h2 class="section__title">Qualification</h2>
+                <span class="section__subtitle">My personal journey</span>
+
+                <div class="qualification__container container">
+                    <div class="qualification__tabs">
+                        <div class="qualification__button button--flex qualification__active" data-target="#education">
+                            <i class="uil uil-graduation-cap qualification__icon"></i>
+                            Education
+                        </div>
+                        <div class="qualification__button button--flex" data-target="#work">
+                            <i class="uil uil-briefcase-alt qualification__icon"></i>
+                            Work
+                        </div>
+                    </div>
+
+                    <div class="qualification__sections">
+                        <div class="qualification__content qualification__active" data-content id="education">
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Science and Mathematics</h3>
+                                    <span class="qualification__subtitle">Thoen Wittaya School</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2011 - 2017
+                                    </div>
+                                
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    @*<span class="qualification__line"></span>*@
+                                </div>
+                                <div>
+                                
+                                    <h3 class="qualification__title">Computer Science</h3>
+                                    <span class="qualification__subtitle">Chiang Mai University</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2018 - 2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="qualification__content" data-content id="work">
+                            <div class="qualification__data">
+                                <div>
+                                    <h3 class="qualification__title">Full Stack Developer (internship)</h3>
+                                    <span class="qualification__subtitle">Sriphat Medical Center</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        Apr. 2021 - Sep. 2021
+                                    </div>
+                                </div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    <span class="qualification__line"></span>
+                                </div>
+                            </div>
+                            <div class="qualification__data">
+                                <div></div>
+                                <div>
+                                    <span class="qualification__rounder"></span>
+                                    @*<span class="qualification__line"></span>*@
+                                </div>
+                                <div>
+                                    <h3 class="qualification__title">Find Job</h3>
+                                    <span class="qualification__subtitle">C# .net, MVC</span>
+                                    <div class="qualification__calendar">
+                                        <i class="uil uil-calendar-alt"></i>
+                                        2022
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</section>
+
+<section id="project">
+    <div class="space-content"></div>
+    <div class"project swiper-content">
+        <div class="title">
+            <span><strong>Project</strong></span>
+            <span><strong>Project</strong></span>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="imgbox">
+                        <img src="~/img_project/img_port.png" />
+                        @*<iframe src="https://www.todolist.website" width="400" height="500"></iframe>*@
+                    </div>
+                    <div class="details">
+                        <h4>Web Portfolio</h4>
+                        <div class="tag">
+                            <p class="tag-framework" style="background-color: #6c2e9b;">.Net6</p>
+                            <p class="tag-lang">CSS</p>
+                        </div>
+                        <div class="wrapper">
+                            <div class="button">
+                                <div class="icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <span>Source</span>
+                                <a href="https://github.com/jaturon-dev"></a>
+                            </div>
+                            <div class="button">
+                                <div class="icon">
+                                    <i class="fa fa-play-circle"></i>
+                                </div>
+                                <span>View</span>
+                                <a href="https://www.jaturon-port.online"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgbox">
+                        <img src="~/img_project/img_report.png" />
+                    </div>
+                    <div class="details">
+                        <h4>Sentiment Analysis</h4>
+                        <div class="tag">
+                            <p class="tag-framework" style="background-color: #e8392c;">Laravel</p>
+                            <p class="tag-lang">PHP</p>
+                            <p class="tag-lang">Python</p>
+                        </div>
+                        <div class="wrapper">
+                            <div class="button">
+                                <div class="icon">
+                                    <i class="fa fa-sticky-note" aria-hidden="true"></i>
+                                </div>
+                                <span>Abstract</span>
+                                <a asp-area="" asp-controller="Home" asp-action="DownloadFile" asp-route-file_name="Abstract-th_610510679.pdf"></a>
+                            </div>
+                            <div class="button">
+                                <div class="icon">
+                                    <i class="fa fa-paperclip" aria-hidden="true"></i>
+                                </div>
+                                <span>Report</span>
+                                <a asp-area="" asp-controller="Home" asp-action="DownloadFile" asp-route-file_name="Project_610510679.pdf"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgbox">
+                        <img src="~/img_project/img_todo.png" />
+                    </div>
+                    <div class="details">
+                        <h4>Basic CRUD Web</h4>
+                        <div class="tag">
+                            <p class="tag-framework" style="background-color: #6c2e9b;">.Net6</p>
+                            <p class="tag-lang">C#</p>
+                        </div>
+                        <div class="wrapper">
+                            <div class="button">
+                                <div class="icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <span>Source</span>
+                                <a href="https://github.com/jaturon-dev/Basic-CRUD-Web"></a>
+                            </div>
+                            <div class="button">
+                                <div class="icon">
+                                    <i class="fa fa-play-circle" aria-hidden="true"></i>
+                                </div>
+                                <span>View</span>
+                                <a href="https://www.todolist.website"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgbox">
+                        <img src="~/img_project/img_snakegame.png" />
+                    </div>
+                    <div class="details">
+                        <h4>Snake Coming Game</h4>
+                        <div class="tag">
+                            <p class="tag-framework" style="background-color: #000000;">Unity</p>
+                            <p class="tag-lang">C#</p>
+                        </div>
+                        <div class="wrapper">
+                            <div class="button">
+                                <div class="icon">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <span>Source</span>
+                            </div>
+                            <div class="button">
+                                <div class="icon">
+                                    <i class="fa fa-download" aria-hidden="true"></i>
+                                </div>
+                                <span>.apk</span>
+                                <a asp-area="" asp-controller="Home" asp-action="DownloadFile" asp-route-file_name="Snake Coming.apk"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="imgbox">
+                        <img src="~/img_project/img_blog.png" />
+                    </div>
+                    <div class="details">
+                        <h4>Blog Post</h4>
+                        <div class="tag">
+                            <p class="tag-framework" style="background-color: #6c2e9b;">.Net6</p>
+                            <p class="tag-lang">C#</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
