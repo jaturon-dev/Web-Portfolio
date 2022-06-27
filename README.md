@@ -17,7 +17,7 @@ General functionality:
   
 ## Special Thanks
 1. Youtube: [Online Tutorials](https://www.youtube.com/c/OnlineTutorials4Designers)
-  * [Navigation Menu](https://www.youtube.com/watch?v=ArTVfdHOB-M&list=PLh2LmvawoXcspAJFDLGVUAeVyXW2x1TK6&index=19)
+    * [Navigation Menu](https://www.youtube.com/watch?v=ArTVfdHOB-M&list=PLh2LmvawoXcspAJFDLGVUAeVyXW2x1TK6&index=19)
     * [Footer](https://www.youtube.com/watch?v=UpkEANWC2Ms&list=PLh2LmvawoXcspAJFDLGVUAeVyXW2x1TK6&index=1&t=613s)
     * [Water Ripple](https://www.youtube.com/watch?v=hKX8rPs7ve4&list=PLh2LmvawoXcspAJFDLGVUAeVyXW2x1TK6&index=4)
     * [Water Wave Text Animation](https://www.youtube.com/watch?v=Tf6qm5JMUXQ&list=PLh2LmvawoXcspAJFDLGVUAeVyXW2x1TK6&index=14&t=49s)
